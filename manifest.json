@@ -1,0 +1,21 @@
+{
+"manifest_version": 2,
+    "name": "Trump to Snake King",
+    "description": "Replace mentions of Trump with Snake King",
+    "version": "0.1.1",
+    "icons": {
+        "128": "images/icon-128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
