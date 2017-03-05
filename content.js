@@ -1,7 +1,7 @@
 var elements = document.getElementsByTagName('*');
 
 var sourceWordsToTargetWords = [
-    [['[Dd]onald\sJ[.]\s[Tt]rump/g', 'Donald J. Trump', 'Donald John Trump', 'Donald J Trump', 'Donald Trump', 'trump', 'donald trump' ], 'The Snake King'],
+    [['[Dd]onald\sJ[.]\s[Tt]rump/g', 'Donald J. Trump', 'Donald John Trump', 'Donald J Trump', 'Donald Trump', 'trump', 'donald trump' ], 'The Cunt'],
 ];
 
 function makeRegex(sourceWords) {
